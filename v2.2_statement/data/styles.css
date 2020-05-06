@@ -10,6 +10,8 @@
   line-height:normal;
   text-transform:none;
 }
+.shape {
+}
 .image {
 }
 .heading_1 {
@@ -28,9 +30,9 @@
 }
 .heading_3 {
   font-family:'ArialMT', 'Arial', sans-serif;
-  font-weight:bold;
+  font-weight:400;
   font-style:normal;
-  font-size:18px;
+  font-size:12px;
   text-align:left;
 }
 .heading_4 {
@@ -70,6 +72,13 @@
 .box_1 {
 }
 .arrow {
+}
+.checkbox {
+  text-align:left;
+}
+.table_cell {
+}
+.connector {
 }
 .primary_button {
   color:#FFFFFF;
