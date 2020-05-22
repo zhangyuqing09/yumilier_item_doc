@@ -1,7 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="393px" height="71px" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(1 0 0 1 -274 -676 )">
-    <path d="M 391.290322580645 69.8387096774194  L 0.322580645161224 69.8387096774194  C 86.7741935483871 -60.483870967742  79.2456510863072 34.5276970967253  180.322580645161 33.0645161290322  C 298.14171644128 31.3589764190378  391.290322580645 69.8387096774194  391.290322580645 69.8387096774194  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 274 676 )" />
-    <path d="M 0.322580645161224 69.8387096774194  C 86.7741935483871 -60.483870967742  79.2456510863072 34.5276970967253  180.322580645161 33.0645161290322  C 298.14171644128 31.3589764190378  391.290322580645 69.8387096774194  391.290322580645 69.8387096774194  " stroke-width="1" stroke="#2e7fe8" fill="none" transform="matrix(1 0 0 1 274 676 )" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="504px" height="56px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="381px" y="-79px" width="504px" height="56px" filterUnits="userSpaceOnUse" id="filter3508">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.894117647058823  0 0 0 0 0.894117647058823  0 0 0 0 0.894117647058823  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget3509">
+      <path d="M 0 36  L 0 0  L 225.87526652452 0  L 484 0  L 484 36  L 0 36  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 391 -71 )" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -381 79 )">
+    <use xlink:href="#widget3509" filter="url(#filter3508)" />
+    <use xlink:href="#widget3509" />
   </g>
 </svg>
