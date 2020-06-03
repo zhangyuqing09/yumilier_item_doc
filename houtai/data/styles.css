@@ -412,4 +412,45 @@
   font-size:24px;
   text-align:left;
 }
+._形状 {
+}
+._下拉列表框 {
+  color:#000000;
+  text-align:left;
+}
+._白底矩形 {
+  text-align:left;
+}
+._文本框 {
+  font-family:'微软雅黑', sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  color:#485057;
+  text-align:left;
+  line-height:18px;
+}
+._文本标签 {
+  font-size:13px;
+  text-align:left;
+}
+.placeholder1 {
+  color:#FFFFFF;
+}
+._图片1 {
+}
+.box_11 {
+}
+.button1 {
+}
+.text_area1 {
+  color:#000000;
+  text-align:left;
+}
+.text_field1 {
+  color:#000000;
+  text-align:left;
+}
+._水平线 {
+}
 textarea, select, input, button { outline: none; }
