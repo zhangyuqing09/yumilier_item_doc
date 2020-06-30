@@ -1,19 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="27px" height="35px" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="19px" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <filter x="151px" y="170px" width="27px" height="35px" filterUnits="userSpaceOnUse" id="filter1059">
-      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.698039215686274 0  " in="shadowComposite" />
+    <filter x="-50.00%" y="-50.00%" width="200.00%" height="200.00%" filterUnits="objectBoundingBox" id="filter1310">
+      <feColorMatrix type="matrix" values="0.3086 0.6094 0.082 0 0  0.3086 0.6094 0.082 0 0  0.3086 0.6094 0.082 0 0  0 0 0 1 0  " in="SourceGraphic" />
     </filter>
-    <g id="widget1060">
-      <path d="M 163.5 197.969942173426  C 160.3 192.11611826057  155.5 188.603823912856  155.5 182.75  C 155.5 179.685714285714  157.1 174.5  163.5 174.5  C 169.9 174.5  171.5 179.685714285714  171.5 182.75  C 171.5 188.603823912856  166.7 192.11611826057  163.5 197.969942173426  Z " fill-rule="nonzero" fill="#717171" stroke="none" />
-      <path d="M 163.5 199  C 160.1 192.75  155 189  155 182.75  C 155 179.5  156.7 174  163.5 174  C 170.3 174  172 179.5  172 182.75  C 172 189  166.9 192.75  163.5 199  Z M 163.5 196.939884346852  C 166.5 191.48223652114  171 188.207647825712  171 182.75  C 171 179.871428571429  169.5 175  163.5 175  C 157.5 175  156 179.871428571429  156 182.75  C 156 188.207647825712  160.5 191.48223652114  163.5 196.939884346852  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" />
-    </g>
   </defs>
-  <g transform="matrix(1 0 0 1 -151 -170 )">
-    <use xlink:href="#widget1060" filter="url(#filter1059)" />
-    <use xlink:href="#widget1060" />
+  <g transform="matrix(1 0 0 1 -1235 -23 )">
+    <image preserveAspectRatio="none" style="overflow:visible" width="18" height="19" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAmCAYAAACsyDmTAAAAAXNSR0IArs4c6QAAA6RJREFUWAnNmElrVEEUhTsaoyQ4bVxIiEicdxJRQSE44JCQlbhwlYX/yj8gKuJCEgWDIrpwykaJEY1mQBLMRjAaIsbhfN11H7dfv/d6ek08cF7dqq6699RcdKHwn6GtTj3rVH+nuF3cLHaKy+KS+FWcF/+IDaNWQfsUoU88KHZlRPuh3ybFcfF9Rr3Un6oJ6lbLQRFB9QJBI+LnehpmCeqXoyHR1/mt/JQ4J34TmS6mbYvYI+4R14uGvzLuio+toFrqg1ldHF4Sj1mB0lVxVHwurohp2KQfaDcgtrtKtLst0qFM+N5YxcsyvBhG45r4VkRYFvh9VnwtMmJbRdAtMooTZLIQF8Q0nQkN2C33xBvi91BWa8LifikisFdkJhDF6CI4FV4QDYZFm8absp+KrINGQLtpkY7tDQ72K2WkWX+J4FwxsJtMDEJe2A9Npo/UnmkH+CdOKkwQ29q2NsPNAs4LjNB1kekDPlapxH1NEIeeYUzGT8vklC7KD+vR4ONZWTFFEOQEBvTmVdHK//NMLm3bE88GoywShdxNXaH0o9LlYOedsMOmglPiEbcCCOKiNGRuSavURDrn2vq4UTGCuLUNqdvRKjSZev8+buQWQZ1RrlBgh7USfjn4uFFMBPlKtpaiCjkbXkTinYigJReU+6aV8P4TryME8dIz7DKjRWmP88vZVAEEzYu2drgI/bBWNGiigKcJ7yVAvIWiFfsgiMNwMpSTPxLsvJPjcmiXOa9JLt8KIACMl5Li96y+G10+D3OHnFx0jp44u8w0QSiGgJ02ULTy+RDjitge3H1SmnoAmyDqjog2jCdlH6UwB5ySD1vM3GV3snzanFKHU5RbnkcUOCSyvuiNCZVZM+jsafGC2BZajSp9E+zExAuiAsG3id0iTnjpHRCnRduJMquCNXNVZIOYGBrNiFzgqYgLouI7kQMMUYCHOjvkl/hFXBXTwNY+IQ6LSZdnr8oRmCrKq1e9MvQrNyT6OqyBKXFOZIqXRc4tOsA64ZzxnaQ+D7MO8ZxoeCDjvmV86oP5crMZpUGRZ2e9YDexgDl4AYLOF63SJ1GU742rG5mMAmfUTChh+jqCnZSwzibEWyIB/T1p02SnNdNHfEY8QrURiioGg53DS8//+7GiPBflorggVtuR8ZEaU5vovV2vILXNBXFRD+WVc7BsAeYSqUYn8enbrXYbxA/V1lCN/huqliRqdi0F0Yu4KHt1NNTDPBtxIxwW13qAKvv0D3EinzLL+UroAAAAAElFTkSuQmCC" x="1235px" y="23px" filter="url(#filter1310)" />
   </g>
 </svg>
